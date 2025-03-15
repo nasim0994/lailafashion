@@ -9,8 +9,8 @@ const bannerSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  videoUrl: {
-    type: String,
+  galleries: {
+    type: Array,
     required: true,
   },
 });
